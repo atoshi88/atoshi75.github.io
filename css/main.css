@@ -1,0 +1,228 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.nav{
+	width: 960px;
+	height: auto;
+	background:#87CEEB ;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav ul li a{
+	display: block;
+	padding: 20px 35px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+.nav ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.banner-cover{
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner-text{
+	padding: 100px;
+	text-align: center;
+}
+
+.banner-text button{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px;
+	border: 0;
+	background: #ADD8E6;
+	color: #fff;
+	margin: 0px 8px;
+}
+.banner-text button:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.aobout-logo img{
+	width: 200px;
+	height: auto;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 8px 12px 0px #000;
+}
+.about-text{
+	width: 520px;
+	height: auto;
+	padding: 0px 30px;
+	font-style: italic;
+}
+
+.about-text h2{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #fff;
+	margin-bottom:20px;
+
+}
+.about-text p{
+	font-size: 18px;
+	color: #000;
+	line-height: 22px;
+
+
+
+}
+
+.row{
+	overflow: auto;
+
+}
+.col{
+	float: left;
+}
+.about-section{
+	background: #B0E0E6;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+.title{
+	width: 250px;
+	height: auto;
+	margin: 0 auto;
+	font-style: italic;
+
+}
+.title h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #fff;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.hobby{
+	width: 280px;
+	height:auto;
+	border: 1px solid #fff;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	font-style: italic;
+}
+.hobby h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.hobby p{
+	font-size: 15px;
+	color:#000;
+	line-height: 25px;
+	padding: 0px 18px;
+	font-style: italic;
+}
+
+.hobby-section{
+	background: #B0E0E6;
+	padding:40px 0px;
+	margin-top: 20px;
+}
+.serv-icon i{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #4169E1;
+	transition: .5s;
+}
+.serv-icon i:hover{
+	color: #00008B;
+	transform: scale(.8);
+}
+.contact{
+	background: #87CEEB;
+	padding: 15px 15px 15px 80px;
+	box-shadow: 0px 0px 10px #ccc;
+	width: 180px;
+	position: relative;
+	display: inline-block;
+	margin: 0px 8px;
+
+
+}
+.cont-icon i{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	float: left;
+	top: 8px;
+	left: 15px;
+	background: #222;
+	text-align: center;
+	color: #1E90FF;
+	line-height: 50px;
+	font-size: 30px;
+	transition: .5s;
+
+}
+.cont-icon i:hover{
+	color: #00008B;
+	transform: scale(.8);
+}
+.cont-text p{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 16px;
+}
+.contact-section{
+	background: #B0E0E6;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+footer{
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+	background:#000;
+	color: #fff;
+	padding: 30px 0px;
+}
+.footer-icon{
+	float: right;
+}
+.footer-icon i{
+	font-size: 30px;
+	padding: 0px 10px;
+	transition: .5s;
+}
+.footer-icon i:hover{
+	color: #00008B;
+	transform: scale(.8);
+}
+.footer-text{
+	font-size: 20px;
+	font-weight: bold;text-transform: uppercase;
+	margin: 0px 20px;
+}
